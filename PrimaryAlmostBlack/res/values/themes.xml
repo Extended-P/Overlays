@@ -354,6 +354,7 @@
         <item name="android:textColorHint">@*android:color/omni_color3</item>
         <item name="android:textColorAlertDialogListItem">@*android:color/omni_text_tertiary</item>
         <item name="android:colorControlNormal">@*android:color/omni_color4</item>
+        <item name="android:panelColorBackground">@*android:color/omni_color2</item>
     </style>
 
     <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
