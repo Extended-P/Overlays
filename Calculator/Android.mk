@@ -1,8 +1,8 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_PACKAGE_NAME := AccentRuby
-LOCAL_RRO_THEME := AccentRuby
+LOCAL_PACKAGE_NAME := CalculatorTheme
+LOCAL_RRO_THEME := CalculatorTheme
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_SDK_VERSION := current
