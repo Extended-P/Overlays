@@ -7,11 +7,11 @@
     <color name="omni_text2">#b3e5e5e5</color>  <!-- text secondary -->
     <color name="omni_text3">#a0e5e5e5</color>  <!-- text tertiary -->
     <color name="omni_text4">#dee5e5e5</color>  <!-- text tertiary -->
-    <color name="omni_color1">#141414</color> <!-- PRIMARY DARK -->
-    <color name="omni_color2">#141414</color> <!-- PRIMARY LIGHT -->
+    <color name="omni_color1">#ff0a0c11</color> <!-- PRIMARY DARK -->
+    <color name="omni_color2">#ff0a0c11</color> <!-- PRIMARY LIGHT -->
     <color name="omni_color6">#b3e5e5e5</color> <!-- WIFI ICON IN DETAILS -->
-    <color name="omni_color7">#141414</color> <!-- FLOATING DIALOG COLOR ON VERY DARK THEMES MAKE THIS A BIT LIGHTER -->
-    <color name="omni_color9">#141414</color> <!-- TOAST (NEEDS SOME ALPHA) -->
+    <color name="omni_color7">#ff0a0c11</color> <!-- FLOATING DIALOG COLOR ON VERY DARK THEMES MAKE THIS A BIT LIGHTER -->
+    <color name="omni_color9">#ff0a0c11</color> <!-- TOAST (NEEDS SOME ALPHA) -->
 
     <!-- PRIMARY LIGHT -->
     <color name="primary_dark_device_default_settings">@*android:color/omni_color2</color> <!-- Main BG settings -->
