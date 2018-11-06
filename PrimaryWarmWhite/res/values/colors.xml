@@ -29,6 +29,10 @@
 
     <color name="dialog_background_material">@*android:color/omni_color1</color>
 
+        <!-- Toast themeing -->
+    <color name="toast_bg">@*android:color/omni_color1</color>
+    <color name="toast_text">@*android:color/omni_text1</color>
+
     <!-- specials -->
     <color name="btn_colored_text_material">@*android:color/omni_color2</color><!-- example: Uninstall button in app manager -->
     <color name="global_wifi_details_icon_color">@*android:color/omni_color6</color> <!-- settings/wifi/details iconsy -->
