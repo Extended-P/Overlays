@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_material_dark">#7F00FF</color>
+    <color name="accent_material_light">#7F00FF</color>
+    <color name="accent_device_default_50">#7F00FF</color>
+    <color name="accent_device_default_700">#7F00FF</color>
+    <color name="accent_device_default_dark">#7F00FF</color>
+    <color name="accent_device_default_light">#7F00FF</color>
+    <color name="material_deep_teal_200">#7F00FF</color>
+    <color name="material_deep_teal_500">#7F00FF</color>
+    <color name="user_icon_1">#7F00FF</color>
+    <color name="accent_gradient_end_color">#E100FF</color>
+</resources>
