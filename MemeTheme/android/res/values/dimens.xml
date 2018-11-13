@@ -18,4 +18,8 @@
 -->
 <resources>
     <dimen name="recents_task_view_rounded_corners_radius">8.0dip</dimen>
+    <dimen name="status_bar_height_portrait">121.0px</dimen>
+    <dimen name="status_bar_height">121.0px</dimen>
+    <dimen name="status_bar_height_landscape">24.0dip</dimen>
+    <dimen name="rounded_corner_content_padding">4.0dip</dimen>
 </resources>
