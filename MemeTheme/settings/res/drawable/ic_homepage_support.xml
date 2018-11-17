@@ -16,20 +16,6 @@
   -->
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <shape android:shape="oval">
-            <gradient
-                android:type="linear"
-                android:startColor="@*android:color/accent_device_default_light"
-                android:endColor="@*android:color/accent_gradient_end_color"
-                android:angle="135"/>
-            <size
-                android:width="40dip"
-                android:height="40dip" />
-        </shape>
-    </item>
-
     <item
         android:width="28dp"
         android:height="28dp"

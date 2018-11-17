@@ -30,7 +30,11 @@
         </shape>
     </item>
 
-    <item>
+    <item
+        android:width="28dp"
+        android:height="28dp"
+        android:start="6dp"
+        android:top="6dp">
         <vector android:tint="@*android:color/background_material_dark" 
                 android:height="24.0dip" 
                 android:width="24.0dip" 
