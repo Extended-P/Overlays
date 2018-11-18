@@ -30,19 +30,15 @@
         </shape>
     </item>
 
-    <item
-        android:width="28dp"
-        android:height="28dp"
-        android:start="6dp"
-        android:top="6dp">
-        <vector xmlns:android="http://schemas.android.com/apk/res/android"
-                android:width="24dp"
-                android:height="24dp"
-                android:viewportWidth="24.0"
-                android:viewportHeight="24.0">
-            <path
-                android:fillColor="#fff"
-                android:pathData="M3,20h18v-4H3V20zM5,17h2v2H5V17zM3,4v4h18V4H3zM7,7H5V5h2V7zM3,14h18v-4H3V14zM5,11h2v2H5V11z"/>
-        </vector>
+    <item>
+        <vector android:tint="@*android:color/background_material_dark" 
+                android:height="24.0dip" 
+                android:width="24.0dip" 
+                android:viewportWidth="24.0" 
+                android:viewportHeight="24.0"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+        <path android:fillColor="@*android:color/background_material_dark" 
+              android:pathData="M21.75,15.0000001 L21.75,21 C21.75,21.4142136 21.4142136,21.75 21,21.75 L3,21.75 C2.58578644,21.75 2.25,21.4142136 2.25,21 L2.25,15 L2.25,9 L2.25,3 C2.25,2.58578644 2.58578644,2.25 3,2.25 L21,2.25 C21.4142136,2.25 21.75,2.58578644 21.75,3 L21.75,9 L21.75,15 Z M20.25,14.25 L20.25,9.75 L3.75,9.75 L3.75,14.25 L20.25,14.25 Z M20.25,8.25 L20.25,3.75 L3.75,3.75 L3.75,8.25 L20.25,8.25 Z M5,6.75 L5,5.25 L7,5.25 L7,6.75 L5,6.75 Z M5,12.75 L5,11.25 L7,11.25 L7,12.75 L5,12.75 Z M3.75,20.25 L20.25,20.25 L20.25,15.75 L3.75,15.75 L3.75,20.25 Z M5,18.75 L5,17.25 L7,17.25 L7,18.75 L5,18.75 Z" />
+       </vector>
     </item>
 </layer-list>
