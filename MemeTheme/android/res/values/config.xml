@@ -5,6 +5,6 @@
     <bool name="config_notificationTinting_override">true</bool>
     <bool name="config_allowNotificationIconTextTinting">false</bool>
     <bool name="config_allowNotificationAppNameTextTinting">true</bool>
-    <item name="config_buttonTextLetterSpacing" format="float" type="dimen">0.08</item>
+    <item name="config_buttonTextLetterSpacing" format="float" type="dimen">0.20</item>
     <bool name="config_buttonTextAllCaps">true</bool>
 </resources>

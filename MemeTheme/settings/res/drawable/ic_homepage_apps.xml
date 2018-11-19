@@ -15,34 +15,56 @@
   limitations under the License.
   -->
 
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
 
     <item>
-        <shape android:shape="oval">
-            <gradient
-                android:type="linear"
-                android:startColor="@*android:color/accent_device_default_light"
-                android:endColor="@*android:color/accent_gradient_end_color"
-                android:angle="135"/>
+        <shape
+            android:innerRadius="17dp"
+            android:shape="ring"
+            android:thickness="2dp"
+            android:useLevel="false">
             <size
-                android:width="40dip"
-                android:height="40dip" />
+                android:width="40dp"
+                android:height="40dp" />
+            <gradient
+                android:angle="45"
+                android:centerColor="@*android:color/accent_gradient_end_color"
+                android:startColor="@*android:color/accent_device_default_light"
+                android:endColor="@*android:color/accent_device_default_light"
+                android:type="linear"/>
         </shape>
     </item>
 
     <item
-        android:width="28dp"
-        android:height="28dp"
-        android:start="6dp"
-        android:top="6dp">
-        <vector android:tint="@*android:color/background_material_dark" 
-                android:height="24.0dip" 
-                android:width="24.0dip" 
-                android:viewportWidth="24.0" 
-                android:viewportHeight="24.0"
-                xmlns:android="http://schemas.android.com/apk/res/android">
-                   <path android:strokeColor="@*android:color/background_material_dark"
-                         android:strokeWidth="1"                                                     android:pathData="M4,8h4L8,4L4,4v4zM10,20h4v-4h-4v4zM4,20h4v-4L4,16v4zM4,14h4v-4L4,10v4zM10,14h4v-4h-4v4zM16,4v4h4L20,4h-4zM10,8h4L14,4h-4v4zM16,14h4v-4h-4v4zM16,20h4v-4h-4v4z" />
+        android:width="24dp"
+        android:height="24dp"
+        android:start="8.3dp"
+        android:top="8dp">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24.0"
+            android:viewportHeight="24.0">
+            <path
+                android:pathData="M6 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 12c1.1 0 2-.9 2-2s-.9-2-2-2-2
+        .9-2 2 .9 2 2 2zm-6 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0-6c1.1 0 2-.9
+        2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2
+        2zm4-8c0 1.1 .9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm-4 2c1.1 0 2-.9
+        2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2
+        2zm0 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z">
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                    android:endX="10"
+                    android:endY="5"
+                    android:startX="24"
+                    android:startY="24"
+                    android:angle="180"
+                    android:centerColor="@*android:color/accent_gradient_end_color"
+                    android:startColor="@*android:color/accent_device_default_light"
+                    android:endColor="@*android:color/accent_device_default_light"
+                    android:type="linear" />
+                </aapt:attr>
+            </path>
         </vector>
     </item>
 </layer-list>
