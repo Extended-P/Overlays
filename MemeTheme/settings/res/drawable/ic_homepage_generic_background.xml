@@ -14,7 +14,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-<shape
+     <shape xmlns:android="http://schemas.android.com/apk/res/android"
             android:innerRadius="17dp"
             android:shape="ring"
             android:thickness="2dp"
@@ -28,4 +28,4 @@
                 android:startColor="@*android:color/accent_device_default_light"
                 android:endColor="@*android:color/accent_device_default_light"
                 android:type="linear"/>
-        </shape>
+      </shape>
